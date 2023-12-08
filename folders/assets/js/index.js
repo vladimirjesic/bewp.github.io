@@ -47,7 +47,7 @@ inputLName.addEventListener("blur",checkLName);
 
 //email check
 
-var regExEmail=/^[a-z-\.]+@([a-z-]+\.)+[a-z-]{2,4}$/;
+var regExEmail=/^[a-z-\.0-9]+@([a-z-]+\.)+[a-z-]{2,4}$/;
 
 var inputEmail=document.getElementById("email");
 
